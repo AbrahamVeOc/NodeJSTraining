@@ -2,15 +2,15 @@
 
 // Tipado de datos es débil y dinámico
 
-let email = 'pedro@pedro.com';
+let email = "pedro@pedro.com";
 email = 20;
 
 // Tipos de datos primitivos
 
 // string o cadena de caracteres (Comillas dobles o simples)
 
-let ciudad = 'Villa de \nMadrid';
-let calle = 'Avenida O\'Donell';
+let ciudad = "Villa de \nMadrid";
+let calle = "Avenida O'Donell";
 
 console.log(ciudad, calle);
 

@@ -16,8 +16,8 @@ console.log(puntuacion1);
 
 // Operador de igualdad ==
 
-let ciudad = 'Madrid';
-let termino = 'Madrid';
+let ciudad = "Madrid";
+let termino = "Madrid";
 
 let hayCoincidencia = ciudad == termino;
 console.log(hayCoincidencia);
@@ -25,7 +25,7 @@ console.log(hayCoincidencia);
 // No es estricto con los tipos de datos
 
 let valor1 = 3;
-let valor2 = '3';
+let valor2 = "3";
 
 hayCoincidencia = valor1 == valor2;
 console.log(hayCoincidencia);

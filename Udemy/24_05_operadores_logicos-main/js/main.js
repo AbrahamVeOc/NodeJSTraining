@@ -28,6 +28,6 @@ console.log(mayorEdad);
 let estado;
 let edadParticipante = 19;
 
-estado = edadParticipante >= 18 ? 'Adulto' : 'Menor';
+estado = edadParticipante >= 18 ? "Adulto" : "Menor";
 
-console.log('El participante es ' + estado);
+console.log("El participante es " + estado);

@@ -15,9 +15,9 @@ let primerApellido;
 
 // Asignación de valores
 
-primerApellido = 'Jiménez';
+primerApellido = "Jiménez";
 
-primerApellido = 'López';
+primerApellido = "López";
 
 // Inicialización de variables (declaración + asignación)
 
@@ -27,21 +27,21 @@ let telefono = 91000000;
 
 let email, codigoPostal, localidad;
 
-// Constantes 
+// Constantes
 
-const urlPedidos = 'http://...';
+const urlPedidos = "http://...";
 
 // Declaración versión clásica con la palabra reservada var
 
-var nombre; 
+var nombre;
 
-nombre = 'Juan';
+nombre = "Juan";
 
-var ciudad = 'Madrid';
+var ciudad = "Madrid";
 
 // Declaración e inicialización global (no se usa palabra reserva)
 
-numeroPasaporte = '6527572572'; // Mala práctica
+numeroPasaporte = "6527572572"; // Mala práctica
 
 // Imprimir por consola una variable
 

@@ -12,7 +12,7 @@ let cubo = (a) => {
   return a * a * a;
 };
 
-let cubo = (a) => a * a * a;
+let cubo2 = (a) => a * a * a;
 
 console.log(cubo(5));
 

@@ -66,14 +66,22 @@ class Food {
   constructor(cal, ctime, price, percentage = 100) {
     this.properties = { cal, ctime, price, perc: percentage };
   }
-  eat = function (perc) {
+  eat(perc) {
     // Validate if perc lower than 100 and greater than 0 and perc isnt greater than properties.percentage
-    // if (perc ) {
-
-    // }
+    if (!(perc <= 100 && perc > 0)) {
+      return "Percentage out of range (1-100)";
+    }
+    if (!(perc < this.properties.perc)) {
+      return "Not enough food, bruh";
+    }
+    // "-=" equivalent to "this.properties.perc = this.properties.perc - perc"
     this.properties.perc -= perc;
-  };
+    console.log("yummy you ate: ", perc);
+    return `you have ${this.properties.perc}% food left`;
+  }
 }
 
 const pizzaSlice = new Food(500, "lunch", 2);
-console.log(pizzaSlice.propiedades);
+console.log(pizzaSlice.properties);
+pizzaSlice.eat(0);
+console.log(pizzaSlice.eat(99));

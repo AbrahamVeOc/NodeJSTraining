@@ -6,7 +6,7 @@ class Race {
     this.length = length;
   }
   rSG() {
-    for (let index = 0; index < 100; index++) {
+    for (let index = 0; index < 10000; index++) {
       console.log(this.cars[0].run());
       console.log(this.cars[1].run());
       if (index === 9) this.finalizo = true;

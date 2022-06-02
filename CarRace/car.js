@@ -11,7 +11,7 @@ class Car {
   run() {
     // "+=" equivalent to "this.x =  this.x + dice()""
     this.x += dice();
-    return `${this.model} ${this.x}`;
+    return `${this.model} is in position: ${this.x}`;
   }
 }
 module.exports = { Car };

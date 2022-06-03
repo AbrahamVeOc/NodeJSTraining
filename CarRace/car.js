@@ -1,4 +1,4 @@
-const dice = require("./utils.js")
+const dice = require("./utils.js");
 
 class Car {
   constructor(model, color, hp = 100, health = 100, x = 0) {
@@ -11,21 +11,7 @@ class Car {
   run() {
     // "+=" equivalent to "this.x =  this.x + dice()""
     this.x += dice();
-    return `${this.model} ${this.x}`
+    return `${this.model} is in position: ${this.x}`;
   }
 }
-
-const rojis = new Car("rojis5000", "red");
-const tinky = new Car("tinkardoPRIME", "purple");
-
-console.log(rojis.run());
-console.log(rojis.run());
-console.log(rojis.run());
-console.log(rojis.run());
-console.log(rojis.run());
-console.log(rojis.run());
-console.log(rojis.run());
-console.log(rojis.run());
-console.log(rojis.run());
-
-
+module.exports = { Car };

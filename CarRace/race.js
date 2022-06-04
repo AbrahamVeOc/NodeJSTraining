@@ -33,3 +33,4 @@ const car6 = new Car("Suprema 12000", "white");
 const car7 = new Car("Lorem 1s000", "black");
 
 const race = new Race([car1, car2, car3, car4, car5, car6, car7], 1000);
+
